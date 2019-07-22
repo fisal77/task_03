@@ -18,6 +18,6 @@ def restaurant_list(request):
 def restaurant_detail(request):
 
     context = {
-    	'my_object': {"restaurant_name": "Al-Baik", "food_type": "Checken Spicy"}
+    	'my_object': {"restaurant_name": "Al-Baik", "food_type": "Checken Spicy"},
     }
     return render(request, 'detail.html', context)
